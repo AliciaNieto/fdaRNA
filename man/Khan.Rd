@@ -128,6 +128,6 @@ Nieto-Reyes A, Cabrera J. Statistical depth based normalization and outlier dete
 \examples{
 K=Khan[,1:63]
 names(K)
-outlier_detection(K,MS=T)
+outlier.detection(K,MS = TRUE)
 }
 \keyword{datasets}

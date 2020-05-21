@@ -72,6 +72,6 @@ Amaratunga D, Cabrera J, Shkedy Z. Exploration and analysis of DNA microarray an
 Nieto-Reyes A, Cabrera J. Statistical depth based normalization and outlier detection of gene expression data. Preprint.
 }
 \examples{
-normalization_boxplot(Tissue, before=T, par_r=T)
+normalization.boxplot(Tissue, before = TRUE, par.r = TRUE)
 }
 \keyword{datasets}

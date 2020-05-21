@@ -37,6 +37,6 @@ Himes BE, Jiang X, Wagner P, Hu R, Wang Q, Klanderman B, Whitaker RM, Duan Q, La
 Nieto-Reyes A, Cabrera J. Statistical depth based normalization and outlier detection of gene expression data. Preprint.
 }
 \examples{
-outlier.detection(Airway, clases=2, Cla=list(c(1,3,5,7),c(2, 4, 6 ,8)), MS=T)
+outlier.detection(Airway, clases = 2, Cla = list(c(1,3,5,7),c(2, 4, 6 ,8)), MS = TRUE)
 }
 \keyword{datasets}
