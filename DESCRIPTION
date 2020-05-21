@@ -1,0 +1,12 @@
+Package: fdaRNA
+Type: Package
+Title: RNA-seq and microarray preprocessing
+Version: 1.0
+Date: 2020-04-28
+Author: Alicia Nieto-Reyes and Javier Cabrera
+Maintainer: Alicia Nieto-Reyes <alicia.nieto@unican.es> and Javier Cabrera <xavier.cabrera@gmail.com>
+Description: Statistical functional depth based normalization and outlier detection for gene expression data
+License: LGPL
+NeedsCompilation: no
+Packaged: 2020-05-21 14:33:00 UTC; jc
+Depends: R (>= 3.5.0)
