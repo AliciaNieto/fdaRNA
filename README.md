@@ -8,3 +8,14 @@ detection methodology can be generally applied.
 
 For more details please contact: [Alicia Nieto-Reyes](alicia.nieto@unican.es) 
 and [Javier Cabrera](xavier.cabrera@gmail.com).
+
+How to install fdaRNA?
+-------------------------
+
+The current development version can be downloaded from GitHub via
+
+``` r
+if (!requireNamespace("remotes")) install.packages("remotes")
+
+remotes::install_github("asael697/fdaRNA",dependencies = TRUE)
+```
