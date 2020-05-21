@@ -17,5 +17,6 @@ The current development version can be downloaded from GitHub via
 ``` r
 if (!requireNamespace("remotes")) install.packages("remotes")
 
+remotes::install_bioc("affy")
 remotes::install_github("asael697/fdaRNA",dependencies = TRUE)
 ```
