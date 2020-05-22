@@ -1,7 +1,7 @@
 Package: fdaRNA
 Type: Package
 Title: RNA-seq and microarray preprocessing
-Version: 1.0.0.000
+Version: 1.0.0
 Date: 2020-04-28
 Author: Alicia Nieto-Reyes and Javier Cabrera
 Maintainer: Alicia Nieto-Reyes <alicia.nieto@unican.es> and Javier Cabrera <xavier.cabrera@gmail.com>
