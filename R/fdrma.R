@@ -23,6 +23,7 @@
 #' @export
 #' @import parallel MASS stats
 #' @importFrom affy pm bg.correct.rma
+#' @importFrom doSNOW registerDoSNOW
 #'
 #' @author A. Nieto and J. Cabrera
 #'
@@ -62,7 +63,7 @@ fdrma <-function(slc0cel,method=c("fdn","myrma"), mod=c("MP","MM","LS"),no.cores
   xx = log2(my.PM)
   
   cl = parallel::makeCluster(no.cores)
-  registerDoSNOW(cl)
+  doSNOW::registerDoSNOW(cl)
   z = split(data.frame(xx),pG)
   fun1=function(x){ xxx = medpolish (as.matrix(x),trace.iter=F);xxx$overall+xxx$col }
   

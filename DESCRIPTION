@@ -1,6 +1,6 @@
 Package: fdaRNA
 Type: Package
-Title: RNA-seq and Microarray Preprocessing
+Title: RNA-Seq and Microarray Preprocessing
 Version: 1.0.0
 Date: 2020-04-28
 Authors@R: c(
@@ -23,4 +23,5 @@ Imports:
    affy,
    MASS,
    mpm,
+   doSNOW,
    mvtnorm

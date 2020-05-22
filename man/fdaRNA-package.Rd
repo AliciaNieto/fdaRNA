@@ -4,7 +4,7 @@
 \name{fdaRNA-package}
 \alias{fdaRNA-package}
 \alias{fdaRNA}
-\title{RNA-seq and Microarray Preprocessing}
+\title{RNA-Seq and Microarray Preprocessing}
 \description{
 This package is dedicated to two central aspects of gene expression preprocessing: 
 normalization and outlier detection. In this package, those methodologies are based 

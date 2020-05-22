@@ -1,4 +1,4 @@
-#' RNA-seq and Microarray Preprocessing
+#' RNA-Seq and Microarray Preprocessing
 #'
 #' @docType package
 #' @name fdaRNA-package
@@ -12,6 +12,7 @@
 #' @keywords  non-parametric multivariate robust
 #' 
 #' @import affy MASS mpm mvtnorm
+#' @importFrom doSNOW registerDoSNOW
 #' 
 #' @references
 #' Nieto-Reyes A, Cabrera J. Statistical depth based normalization and outlier detection of 

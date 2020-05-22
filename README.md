@@ -6,8 +6,7 @@ preprocessing: normalization and outlier detection. In this package,
 those methodologies are based on statistical depth. The outlier
 detection methodology can be generally applied.
 
-For more details please contact: [Alicia Nieto-Reyes](alicia.nieto@unican.es) 
-and [Javier Cabrera](xavier.cabrera@gmail.com).
+For more details please make a pull request.
 
 How to install fdaRNA?
 -------------------------
