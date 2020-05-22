@@ -1,4 +1,4 @@
-#' The 'fdaRNA' package.
+#' RNA-seq and Microarray Preprocessing
 #'
 #' @docType package
 #' @name fdaRNA-package
@@ -9,7 +9,7 @@
 #' normalization and outlier detection. In this package, those methodologies are based 
 #' on statistical depth. The outlier detection methodology can be generally applied.
 #'
-#' @keywords  non-parametric, multivariate, robust
+#' @keywords  non-parametric multivariate robust
 #' 
 #' @import affy MASS mpm mvtnorm
 #' 
