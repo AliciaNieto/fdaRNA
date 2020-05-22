@@ -1,10 +1,12 @@
 Package: fdaRNA
 Type: Package
 Title: RNA-seq and microarray preprocessing
-Version: 1.0.0
+Version: 1.0.0de
 Date: 2020-04-28
-Author: Alicia Nieto-Reyes and Javier Cabrera
-Maintainer: Alicia Nieto-Reyes <alicia.nieto@unican.es> and Javier Cabrera <xavier.cabrera@gmail.com>
+Authors@R: c(
+  person("Alicia","Nieto-Reyes", role = c("aut", "cre"), email = "alicia.nieto@unican.es")
+  person("Javier","Cabrea", role = c("aut""),email = "xavier.cabrera@gmail.com"),
+  )
 Description: Statistical functional depth based normalization and outlier detection for gene expression data.
     This package is dedicated to two central aspects of gene expression preprocessing: 
     normalization and outlier detection. In this package, those methodologies are based 
